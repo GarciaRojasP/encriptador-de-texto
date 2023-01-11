@@ -27,7 +27,7 @@ function encriptarMensaje(evento){
         setTimeout(function () {
             alerta.style.display="none";
         }, 2000);
-    } else if (!mensaje.value.match(/^[a-zñ\s]*$/)) {
+    } else if (!mensaje.value.match(/^[a-zñ\s.¡!¿?]*$/)) {
         alerta.style.display="block";
         alerta.innerHTML = "solo se admiten minusculas y sin acentos";
         setTimeout(function () {
@@ -54,7 +54,7 @@ function desencriptarMensaje(evento){
         setTimeout(function () {
             alerta.style.display="none";
         }, 2000);
-    } else if (!mensaje.value.match(/^[a-zñ\s]*$/)) {
+    } else if (!mensaje.value.match(/^[a-zñ\s.¡!¿?]*$/)) {
         alerta.style.display="block";
         alerta.innerHTML = "Error, solo se admiten letras en minusculas y sin acentos";
         setTimeout(function () {
