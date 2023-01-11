@@ -1,0 +1,54 @@
+@media screen and (max-width:1200px){
+    :root{
+        --tamano-letra-principal: 30px;
+    }
+}
+
+@media screen and (max-width:992px){
+    :root{
+        --tamano-letra-principal: 28px;
+    }
+    .contedido-principal{
+        grid-template-columns: 50% 1fr;
+    }
+    .texto, .resultado{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:678px){
+    :root{
+        --tamano-letra-principal: 26px;
+    }
+    .encabezado img{
+        width: 30%;
+    }
+    .contenedor-principal{
+        grid-template-columns: 1fr;
+    }
+    .contenedor-mensaje{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .imagen{
+        display: none;
+    }
+    .contenedor-mensaje{
+        height: auto;
+    }
+    .contenedor-mensaje .button{
+        margin: 5% auto 5%;
+    }
+}
+
+@media screen and (max-width:375px){
+    :root{
+        --tamano-letra-principal: 20px;
+    }
+    .boton{
+        grid-template-columns: 1fr;
+    }
+    .texto, .resultado{
+        height: 200px;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/b947fe8bbd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+            <img src="imagenes/alura-+-oracle.png" alt="logo">
+            <h1>Encriptador de Texto</h1>
+        </div>
+    </header>
+    <main class="contenedor-principal">
+        <section class="contenedor">
+            <form>
+                <textarea name="mensaje" id="mensaje" class="texto" placeholder="Ingrese el texto aqui"></textarea>
+                <div id="alerta"></div>
+                <p class="nota" id="error"><i class="fa-solid fa-circle-info"></i> Solo letras minusculas y sin acento</p>
+                <div class="boton">
+                    <button id="encriptarMensaje" class="button">Encriptar</button>
+                    <button id="desencriptarMensaje" class="button">Desencriptar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="contenedor-mensaje">
+            <img src="imagenes/Muñeco.png" alt="imagen de busqueda" id="imagen" class="imagen">
+            <div class="mensaje" id="informacion">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <textarea id="resultado" class="resultado"></textarea>
+            <button id="copiar" class="button">Copiar</button>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="icon-contacto">
+            <a href="https://www.linkedin.com/in/patricia-garcia-desarrolladora/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/GarciaRojasP"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="copyright">&copy copyright Patricia García</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
