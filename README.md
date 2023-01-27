@@ -43,5 +43,5 @@
 <h3>Apactación a diferentes dispositivos</h3>
 
 ![encriptador-de-texto](https://user-images.githubusercontent.com/119550417/215005826-88abc8c9-20c7-48e1-bb31-069931028866.jpg)
-![encriptador-de-texto](https://user-images.githubusercontent.com/119550417/215007192-1db4c7c3-3522-4e3c-a407-8fc62fda3ef0.png)
-![encriptador-de-texto](https://user-images.githubusercontent.com/119550417/215007198-51d41304-5d84-4745-9f6f-8d8f3d68850b.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/119550417/215007192-1db4c7c3-3522-4e3c-a407-8fc62fda3ef0.png" width="300">
+<img src="https://user-images.githubusercontent.com/119550417/215007198-51d41304-5d84-4745-9f6f-8d8f3d68850b.png" width="300"></p>
