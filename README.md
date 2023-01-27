@@ -21,7 +21,7 @@
   - La letra "ai" es convertida para `"a"`
   - La letra "ober" es convertida para `"o"`
   - La letra "ufat" es convertida para `"u"`
-  - 
+ 
 <hr>
 
 <h3>Requisitos:</h3>
@@ -33,7 +33,8 @@
     - "!"
     - "¿"
     - "?"
-  <hr>
+
+<hr>
   
 <h3>Tecnologías utilizadas:</h3>
 
