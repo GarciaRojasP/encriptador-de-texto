@@ -43,5 +43,5 @@
 <h3>Apactación a diferentes dispositivos</h3>
 
 ![encriptador-de-texto](https://user-images.githubusercontent.com/119550417/215005826-88abc8c9-20c7-48e1-bb31-069931028866.jpg)
-![garciarojasp github io_encriptador-de-texto_(Samsung Galaxy S8+)](https://user-images.githubusercontent.com/119550417/215006496-7cb97897-df38-4ec2-ab7f-a8da8a53acf8.png)
-![garciarojasp github io_encriptador-de-texto_(iPhone SE) (1)](https://user-images.githubusercontent.com/119550417/215006518-04094e15-dc9b-4a20-b89d-23a8e36fe8ea.png)
+![encriptador-de-texto](https://user-images.githubusercontent.com/119550417/215007192-1db4c7c3-3522-4e3c-a407-8fc62fda3ef0.png)
+![encriptador-de-texto](https://user-images.githubusercontent.com/119550417/215007198-51d41304-5d84-4745-9f6f-8d8f3d68850b.png)
