@@ -4,6 +4,10 @@
 
 <hr>
 
+<h3>Apactación a diferentes dispositivos</h3>
+<p align="center"><img src="https://user-images.githubusercontent.com/119550417/232374012-88e47a47-c685-4f64-a389-ed98798aa710.png" width="90%"></p>
+<hr>
+
 <h3>Las "llaves" de encriptación que se utilizaron son las siguiente:</h3>
   
   - La letra "e" es convertida para `"enter"`
@@ -38,10 +42,3 @@
 
  <img src="https://img.icons8.com/color/344/html-5--v1.png" alt="html" width="50"/><img src="https://img.icons8.com/color/344/css3.png" alt="css" width="50"/><img    src="https://img.icons8.com/color/344/javascript--v1.png" alt="JavaScript" width="50"/>
 
-<hr>
-
-<h3>Apactación a diferentes dispositivos</h3>
-
-![encriptador-de-texto](https://user-images.githubusercontent.com/119550417/215005826-88abc8c9-20c7-48e1-bb31-069931028866.jpg)
-<p align="center"><img src="https://user-images.githubusercontent.com/119550417/215007192-1db4c7c3-3522-4e3c-a407-8fc62fda3ef0.png" width="300">
-<img src="https://user-images.githubusercontent.com/119550417/215007198-51d41304-5d84-4745-9f6f-8d8f3d68850b.png" width="300"></p>
