@@ -20,9 +20,6 @@
     :root{
         --tamano-letra-principal: 26px;
     }
-    .encabezado img{
-        width: 30%;
-    }
     .contenedor-principal{
         grid-template-columns: 1fr;
     }

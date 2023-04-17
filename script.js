@@ -18,6 +18,13 @@ function habilitarDesabilitar(nuevo){
     mensaje.value = "";
 }
 
+function habilitar(){
+    imagen.style.display="block";
+    informacion.style.display="block";
+    resultado.style.display="none";
+    copiar.style.display="none";
+}
+
 function encriptarMensaje(evento){
     evento.preventDefault();
 
@@ -43,7 +50,7 @@ function encriptarMensaje(evento){
     }
 }
 
-buttonEncriptar.onclick = encriptarMensaje;
+buttonEncriptar.addEventListener("click", encriptarMensaje);
 
 function desencriptarMensaje(evento){
     evento.preventDefault();
@@ -70,17 +77,26 @@ function desencriptarMensaje(evento){
     }
 }                                                    
 
-buttonDesencriptar.onclick = (desencriptarMensaje);
+buttonDesencriptar.addEventListener("click", desencriptarMensaje);
         
 function copiarResultado(){
     resultado.innerHTML;
     navigator.clipboard.writeText(resultado.value)
-    .then(() => {
-        alert("Texto copiado...");
+    .then(() => {  
+            document.querySelector(".mensajeCopiado").classList.add("show");
+            document.querySelector(".msj-text").innerHTML="El mensaje ha sido copiado exitosamente";
+            setTimeout(() => {
+            document.querySelector(".mensajeCopiado").classList.remove("show");
+            }, 1500);
+            habilitar();
     })
     .catch(err => {
-        alert("Algo salió mal", err);
-    })
+        document.querySelector(".mensajeCopiado").classList.add("show");
+        document.querySelector(".msj-text").innerHTML="A ocurrido un error";
+        setTimeout(() => {
+        document.querySelector(".mensajeCopiado").classList.remove("show");
+        }, 1000);
+        })
     limpiar();
 }
 

@@ -1,6 +1,6 @@
 :root{
     --tamano-letra-principal: 32px;
-    --color-texto-principla: #0A3871;
+    --color-texto-principla: white;
     --color-fondo-botones: #D8DFE8;
     --color-texto-botones:  #0A3871;
     --color-fondo-botonesHover: #0A3871;
@@ -12,6 +12,10 @@ body{
     font-family: inter;
     font-size: var(--tamano-letra-principal);
     color: var(--color-texto-principla);
+    background-color: #0A3871;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100%' height='100%' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1053%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1054)'%3e%3c/rect%3e%3cpath d='M1312.258460477612 49.68516543341705L1404.1257883202861 65.88385397767043 1420.3244768645395-25.983473865003653 1328.4571490218655-42.18216240925704z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M543.2144367881631-26.319049353103257L439.2257877188238-42.78923333605519 466.51483627906555 121.4288322594297z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M29.40171449603543 362.588021465269L-27.49573415079567 428.0410488400633 94.85474187082974 419.4854701121001z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1072.33 165.75 a165.86 165.86 0 1 0 331.72 0 a165.86 165.86 0 1 0 -331.72 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M425.1%2c296.049C448.304%2c294.466%2c469.036%2c283.578%2c481.864%2c264.178C496.394%2c242.204%2c506.09%2c215.016%2c494.237%2c191.49C481.399%2c166.008%2c453.626%2c150.857%2c425.1%2c151.511C397.597%2c152.141%2c375.269%2c170.872%2c361.243%2c194.538C346.881%2c218.771%2c338.12%2c249.12%2c353.119%2c272.964C367.499%2c295.823%2c398.157%2c297.888%2c425.1%2c296.049' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1294.4447859954505 65.59495567954124L1214.3513625749424 42.628536084084125 1219.9484448920107 174.2518810125748z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M988.11 242.83 a140.21 140.21 0 1 0 280.42 0 a140.21 140.21 0 1 0 -280.42 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M824.965%2c593.986C848.651%2c593.674%2c864.326%2c571.593%2c874.945%2c550.418C884.295%2c531.773%2c886.348%2c510.206%2c876.086%2c492.047C865.661%2c473.6%2c846.154%2c461.975%2c824.965%2c461.976C803.778%2c461.977%2c784.521%2c473.747%2c773.855%2c492.053C763.114%2c510.489%2c763.087%2c532.691%2c772.651%2c551.765C783.416%2c573.235%2c800.949%2c594.302%2c824.965%2c593.986' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M374.0407742497847 316.5569232336208L464.00398476002925 384.483583511362 477.718277302822 286.90132158845483z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-64.58900548899356 313.7426343420458L-59.049340903086524 472.37787252647826 99.58589728134595 466.83820794057124 94.0462326954389 308.20296975613877z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M435.274%2c651.534C466.247%2c652.234%2c497.803%2c640.879%2c513.538%2c614.191C529.486%2c587.142%2c523.588%2c554.243%2c509.047%2c526.412C493.103%2c495.895%2c469.705%2c464.388%2c435.274%2c464.398C400.853%2c464.408%2c376.832%2c495.6%2c361.578%2c526.457C348.225%2c553.469%2c347.612%2c584.825%2c362.908%2c610.786C377.97%2c636.35%2c405.611%2c650.863%2c435.274%2c651.534' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M211.2%2c525.276C240.686%2c526.401%2c274.171%2c524.433%2c289.591%2c499.275C305.455%2c473.392%2c294.219%2c441.138%2c278.798%2c414.988C263.685%2c389.359%2c240.94%2c367.24%2c211.2%2c366.345C180.075%2c365.409%2c150.952%2c383.29%2c136.17%2c410.697C122.058%2c436.861%2c126.248%2c468.792%2c142.533%2c493.661C157.329%2c516.256%2c184.212%2c524.246%2c211.2%2c525.276' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M194.5524483097919 159.24657732679145L157.64215253955592 63.09196944113583 98.39784042413629 196.15687309702741z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1069.0755117428469 243.1803059334517L1152.1583421469409 285.51312244036706 1194.491158653856 202.43029203627313 1111.4083282497622 160.09747552935778z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M869.78 174.19 a93.46 93.46 0 1 0 186.92 0 a93.46 93.46 0 1 0 -186.92 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1053'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1054'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 /*comienza el header*/
@@ -24,8 +28,8 @@ header{
         margin: 0 auto;
 }
 .encabezado img{
-    width: 15%;
     padding: 20px 0;
+    max-width: 100px;
 }
 .encabezado h1{
     text-align: center;
@@ -35,12 +39,12 @@ header{
 /*Comienza el main*/
 .contenedor-principal{
     width: 90%;
-    margin: 10px auto;
-
+    margin: 0 auto;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 70% 1fr;
     grid-template-rows: repeat(2 auto);
+    min-height: calc(100vh - 230px);
 }
 
 .contenedor{
@@ -59,15 +63,15 @@ header{
         box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
         font-size: 1em;
         outline: none; /*Para eliminar el efecto resplando o borde cuando estamos sobre le input*/
-        color: var(--color-texto-principla);
+        color: var(--color-texto-botones);
 }
 
 #alerta {
     display: none;
-    margin: 2% 0 0;
+    margin: 2% 0 0 0;
     text-align: center;
     color: red;
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
 .nota{
@@ -144,21 +148,60 @@ header{
     display: none;
 }
 
+.mensajeCopiado{
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    color: var(--color-texto-principla);
+    margin: 0 auto; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.msj-text{
+padding: 0 1rem;
+text-align: center;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.6s;
+  }
+
 footer{
     text-align: center;
     padding: 15px 20px;
     font-size: 1rem;
-    background: var(--color-fondo-footer);
+    background-color: transparent;
+}
+
+.icon-contacto{
+    height: 45px;
 }
 
 .icon-contacto a{
     text-decoration: none;
+    margin-right: 5px;
 }
 .icon-contacto i{
     font-size: 1.50em;
+    color: var(--color-texto-principla);
     padding: 10px 0;
     cursor: pointer;
-    transition: 1s all;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
 }
 .icon-contacto i:hover{
     font-size: 2em;
