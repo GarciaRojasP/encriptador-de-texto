@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width:678px){
+@media screen and (max-width:768px){
     :root{
         --tamano-letra-principal: 26px;
     }
@@ -33,8 +33,15 @@
     .contenedor-mensaje{
         height: auto;
     }
+
+    .boton{
+        grid-gap: 20px 0px;
+    }
     .contenedor-mensaje .button{
-        margin: 5% auto 5%;
+        margin: 2rem auto 0.5rem;
+    }
+    footer{
+        padding-top: 15px;
     }
 }
 

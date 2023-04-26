@@ -2,6 +2,7 @@
     --tamano-letra-principal: 32px;
     --color-texto-principla: white;
     --color-fondo-botones: #D8DFE8;
+    --color-fondo-input:rgba(5, 191, 219, 0.2);
     --color-texto-botones:  #0A3871;
     --color-fondo-botonesHover: #0A3871;
     --color-texto-botonesHover:  #FFFFFF;
@@ -23,12 +24,11 @@ header{
     margin: 10px 0;
 }
 .encabezado{
-        position: relative;
         width: 90%;
         margin: 0 auto;
 }
 .encabezado img{
-    padding: 20px 0;
+    padding: 1rem 0;
     max-width: 100px;
 }
 .encabezado h1{
@@ -43,13 +43,10 @@ header{
     margin: 0 auto;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 70% 1fr;
+    grid-template-columns: 60% 1fr;
     grid-template-rows: repeat(2 auto);
-    min-height: calc(100vh - 230px);
-}
-
-.contenedor{
-    padding: 20px 0;
+    min-height: calc(100vh - 221px);
+    padding: 1rem 0 0;
 }
 
 .texto, .resultado{
@@ -64,7 +61,12 @@ header{
         box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
         font-size: 1em;
         outline: none; /*Para eliminar el efecto resplando o borde cuando estamos sobre le input*/
-        color: var(--color-texto-botones);
+        background-color: var(--color-fondo-input);
+        color: var(--color-texto-principla);
+}
+
+.texto::placeholder, .resultado::placeholder{
+    color: inherit;
 }
 
 #alerta {
@@ -85,18 +87,19 @@ header{
     display: grid;
     margin: 20px auto;
     grid-gap: 20px;  
-    grid-template-columns:40% 40%;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     justify-content: center;
 }
 
 .button{
     width: 80%;
+    max-width: 150px;
     background: var(--color-fondo-botones);
     color: var(--color-texto-botones);
     font-size: 0.5em ;
     font-weight: bold;
-    padding: 5%;
+    padding: 0.8rem 2rem;
     border: none;
     border-radius: 24px;
     transition: 1s all;
@@ -112,10 +115,7 @@ header{
     width: 100%;
     height: 95%;
     border: none;
-    /*font-size: 1.5rem;*/
     text-align: center;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
 }
 
 .imagen{
@@ -124,7 +124,7 @@ header{
     margin: 10px auto;
 }
 .mensaje{
-    width: 80%;
+    width: 75%;
     display: grid;
     margin: 10px auto;
     grid-gap: 10px;  
@@ -133,6 +133,7 @@ header{
 .mensaje p:first-child {
     font-weight: bold;
     font-size: 0.8em;
+    margin-bottom: 1rem;
     
 }
 .mensaje p:last-child{
@@ -140,10 +141,10 @@ header{
 
 }
 .contenedor-mensaje .resultado{
-    margin: 5% auto;
+    margin: 0 auto;
 }
 .contenedor-mensaje .button{
-    margin: 18% auto 1%;
+    margin: 4.5rem auto 1%;
 }
 .contenedor-mensaje .button, .resultado{
     display: none;
@@ -153,7 +154,7 @@ header{
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(10px);
     color: var(--color-texto-principla);
-    margin: 0 auto; 
+    margin: 0 auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -165,6 +166,11 @@ header{
     font-weight: 900;
     visibility: hidden;
     opacity: 0;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
 
 .msj-text{
@@ -180,7 +186,7 @@ text-align: center;
 
 footer{
     text-align: center;
-    padding: 15px 20px;
+    padding: 0 20px 15px;
     font-size: 1rem;
     background-color: transparent;
 }
