@@ -94,7 +94,7 @@ header{
 
 .button{
     width: 80%;
-    max-width: 150px;
+    max-width: 170px;
     background: var(--color-fondo-botones);
     color: var(--color-texto-botones);
     font-size: 0.5em ;
