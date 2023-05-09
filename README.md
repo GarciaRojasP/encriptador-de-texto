@@ -5,7 +5,7 @@
 <hr>
 
 <h3>Apactación a diferentes dispositivos</h3>
-<p align="center"><img src="https://user-images.githubusercontent.com/119550417/234744247-e5492ec0-4f02-401f-839c-cc0994421b9f.png" width="90%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/119550417/236971746-b5d0b211-a1a6-42a5-8f07-77782079a50b.png" width="90%"></p>
 <hr>
 
 <h3>Las "llaves" de encriptación que se utilizaron son las siguiente:</h3>
